@@ -7,4 +7,10 @@ public class Holder {
     public Holder(int n) {
         this.n = n;
     }
+
+    public void assertSanity() {
+        if (n != n) {
+            throw new AssertionError("This statement is false.");
+        }
+    }
 }

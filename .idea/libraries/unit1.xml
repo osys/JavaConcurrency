@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="unit1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Unit1/resource/libs/javax.servlet-api-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Unit1/resource/libs/jcip-annotations-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

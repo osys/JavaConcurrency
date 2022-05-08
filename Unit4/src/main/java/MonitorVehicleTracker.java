@@ -32,6 +32,7 @@ public class MonitorVehicleTracker {
         if (loc == null) {
             throw new IllegalArgumentException("No such ID: " + id);
         }
+
         loc.x = x;
         loc.y = y;
     }

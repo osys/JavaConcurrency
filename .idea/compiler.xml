@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Unit5" />
         <module name="Unit4" />
+        <module name="Unit7" />
         <module name="Unit6" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,7 @@
       <module name="Unit4" target="8" />
       <module name="Unit5" target="8" />
       <module name="Unit6" target="8" />
+      <module name="Unit7" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

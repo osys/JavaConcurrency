@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/JavaConcurrency.iml" filepath="$PROJECT_DIR$/.idea/JavaConcurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaConcurrency.iml" filepath="$PROJECT_DIR$/JavaConcurrency.iml" />
       <module fileurl="file://$PROJECT_DIR$/Unit1/Unit1.iml" filepath="$PROJECT_DIR$/Unit1/Unit1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Unit2AndUnit3/Unit2AndUnit3.iml" filepath="$PROJECT_DIR$/Unit2AndUnit3/Unit2AndUnit3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unit2Unit3/Unit2Unit3.iml" filepath="$PROJECT_DIR$/Unit2Unit3/Unit2Unit3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Unit4/Unit4.iml" filepath="$PROJECT_DIR$/Unit4/Unit4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Unit5/Unit5.iml" filepath="$PROJECT_DIR$/Unit5/Unit5.iml" />
       <module fileurl="file://$PROJECT_DIR$/Unit6/Unit6.iml" filepath="$PROJECT_DIR$/Unit6/Unit6.iml" />

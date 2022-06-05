@@ -1,5 +1,8 @@
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executors;
+import java.util.concurrent.FutureTask;
 import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;
@@ -9,11 +12,15 @@ import java.util.concurrent.TimeUnit;
  */
 public class TimedRun0 {
     public static void main(String[] args) throws InterruptedException {
-        TimeRun.timedRun(new RunImpl(), 1, TimeUnit.MILLISECONDS);
-
-        // main 线程
-        for (int i = 0; i < 30; i++) {
-            System.out.println("---  " + Thread.currentThread().getName() + "  ---");
+        // 创建一个新的 task
+        FutureTask<String> runImpl = new FutureTask<>(new RunImpl(), "runImpl");
+        // 一定时间后，中断主线程，即 将main线程设为中断状态
+        TimeRun.timedRun(runImpl, 1, TimeUnit.MILLISECONDS);
+        // 调用者执行自己的逻辑
+        if (Thread.currentThread().isInterrupted()) {
+            System.out.println("【main】线程执行了一些逻辑。 ------------------【main】计算结果 = 123");
+        } else {
+            System.out.println("【main】线程执行了一些逻辑。 ==================【main】计算结果 = abc");
         }
     }
 }
@@ -24,14 +31,17 @@ class TimeRun {
     private static final ThreadFactory THREAD_FACTORY = Executors.defaultThreadFactory();
     private static final ScheduledExecutorService EXEC = new ScheduledThreadPoolExecutor(CORE_POOL_SIZE, THREAD_FACTORY);
 
-    /** 外部线程中，安排中断 */
+    /**
+     * 外部线程中，安排中断
+     * @param runnable 任务
+     * @param timeout 时间
+     * @param unit 时间单位
+     */
     public static void timedRun(Runnable runnable, long timeout, TimeUnit unit) {
         // 获取调用者线程
         final Thread task = Thread.currentThread();
-        // 在一定时间后中断调用者线程
-        EXEC.schedule(task::interrupt, timeout, unit);
-        // 启动新线程
-        runnable.run();
+        // 执行一个任务，该任务是将【调用者线程】标记为中断状态
+        ScheduledFuture<?> schedule = EXEC.schedule(task::interrupt, timeout, unit);
     }
 }
 
@@ -39,8 +49,6 @@ class TimeRun {
 class RunImpl implements Runnable {
     @Override
     public void run() {
-        for (int i = 0; i < 30; i++) {
-            System.out.println("---  RunImpl ---");
-        }
+        // System.out.println("【" + Thread.currentThread().getName() + "】线程执行了一些逻辑。");
     }
 }

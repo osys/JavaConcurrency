@@ -6,8 +6,9 @@
       <sourceFolder url="file://$MODULE_DIR$/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Unit8" level="project" />
+    <orderEntry type="library" name="Unit9" level="project" />
+    <orderEntry type="module" module-name="JavaConcurrency" />
   </component>
 </module>

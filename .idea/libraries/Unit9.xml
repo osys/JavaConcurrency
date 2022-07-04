@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Unit9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Unit9/resources/libs/jcip-annotations-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

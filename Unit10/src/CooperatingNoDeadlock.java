@@ -4,6 +4,7 @@ import net.jcip.annotations.ThreadSafe;
 import java.awt.Point;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.concurrent.locks.Lock;
 
 public class CooperatingNoDeadlock {
     @ThreadSafe

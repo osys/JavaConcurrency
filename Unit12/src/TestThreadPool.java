@@ -5,6 +5,9 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class TestThreadPool extends TestCase {
 
     /** 线程工厂 */

@@ -1,6 +1,9 @@
 import junit.framework.TestCase;
 import org.junit.Test;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class TestBoundedBuffer extends TestCase {
     private static final long LOCKUP_DETECT_TIMEOUT = 1000;
     private static final int CAPACITY = 10000;

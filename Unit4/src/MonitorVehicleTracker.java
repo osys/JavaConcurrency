@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * 基于监视器的机动车追踪器实现
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 @ThreadSafe
 public class MonitorVehicleTracker {

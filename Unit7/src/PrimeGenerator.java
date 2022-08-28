@@ -11,7 +11,9 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 
 /**
  * 生成素数
- * @author osys
+ *
+ *
+ * Created by osys on 2022/08/28 21:48.
  */
 @ThreadSafe
 public class PrimeGenerator implements Runnable {

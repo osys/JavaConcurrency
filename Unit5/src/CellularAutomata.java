@@ -3,7 +3,7 @@ import java.util.concurrent.CyclicBarrier;
 
 /**
  * 在一个细胞的自动系统中用 CyclicBarrier 协调计算
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class CellularAutomata {
     /** 细胞 */

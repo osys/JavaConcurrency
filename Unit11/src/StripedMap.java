@@ -1,5 +1,8 @@
 import net.jcip.annotations.ThreadSafe;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 @ThreadSafe
 public class StripedMap {
     // 同比策略: buckets[n] 由 locks[n%N_LOCKS] 保护

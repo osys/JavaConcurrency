@@ -4,6 +4,9 @@ import java.util.concurrent.locks.Lock;
 
 import static java.util.concurrent.TimeUnit.NANOSECONDS;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class DeadlockAvoidance {
     private static Random rnd = new Random();
 

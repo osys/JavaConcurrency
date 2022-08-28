@@ -7,7 +7,7 @@ import java.util.concurrent.Future;
 
 /**
  * 判断一个数是否为素数
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class FutureTest04 {
 

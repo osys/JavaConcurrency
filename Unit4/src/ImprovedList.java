@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.ListIterator;
 
 /**
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 @ThreadSafe
 public class ImprovedList<T> implements List<T> {

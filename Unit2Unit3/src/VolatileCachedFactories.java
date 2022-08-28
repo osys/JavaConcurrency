@@ -8,7 +8,7 @@ import java.math.BigInteger;
 
 /**
  * 使用到不可变容器对象的 volatile 类型引用，缓存最新的结果
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 @ThreadSafe
 public class VolatileCachedFactories extends GenericServlet implements Servlet {

@@ -3,7 +3,7 @@ import java.io.InputStream;
 import java.net.Socket;
 
 /**
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class ReaderThread extends Thread {
     private static final int BUFSZ = 512;

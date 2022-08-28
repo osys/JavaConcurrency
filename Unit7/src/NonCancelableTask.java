@@ -2,7 +2,9 @@ import java.util.concurrent.BlockingQueue;
 
 /**
  * 不可取消的任务在退出前保存中断
- * @author osys
+ *
+ *
+ * Created by osys on 2022/08/28 21:48.
  */
 public class NonCancelableTask {
     public Task getNextTask(BlockingQueue<Task> queue) {

@@ -7,7 +7,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Future;
 
 /**
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public abstract class Renderer {
     private final ExecutorService executor;

@@ -1,3 +1,6 @@
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class GrumpyBoundedBufferDemo {
     private GrumpyBoundedBuffer<String> buffer;
     int SLEEP_GRANULARITY = 50;

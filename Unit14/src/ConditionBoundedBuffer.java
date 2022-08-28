@@ -5,6 +5,9 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 @ThreadSafe
 public class ConditionBoundedBuffer <T> {
     protected final Lock lock = new ReentrantLock();

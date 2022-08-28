@@ -2,6 +2,9 @@ import net.jcip.annotations.ThreadSafe;
 
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 @ThreadSafe
 public class OneShotLatch {
     private final Sync sync = new Sync();

@@ -1,7 +1,7 @@
 import net.jcip.annotations.NotThreadSafe;
 
 /**
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class UnsafeSequenceDemo {
     public static void main(String[] args) {

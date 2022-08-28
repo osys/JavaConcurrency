@@ -5,7 +5,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
  * 委托线程安全到多个底层的状态变量
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class VisualComponent {
     private final List<KeyListener> keyListeners = new CopyOnWriteArrayList<>();

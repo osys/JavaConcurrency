@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * 尝试使用 HashMap 和同步来初始化缓存
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class Memoizer1<A, V> implements Computable<A, V> {
     @GuardedBy("this")

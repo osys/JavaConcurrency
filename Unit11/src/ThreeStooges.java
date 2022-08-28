@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.Vector;
 
 /**
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 @Immutable
 public final class ThreeStooges {

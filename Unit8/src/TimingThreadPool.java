@@ -3,6 +3,9 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.logging.Logger;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class TimingThreadPool extends ThreadPoolExecutor {
 
     public TimingThreadPool() {

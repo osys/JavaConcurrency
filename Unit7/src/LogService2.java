@@ -8,7 +8,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class LogService2 {
     private  int THREAD_NUM = 10;

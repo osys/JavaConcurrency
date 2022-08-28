@@ -17,7 +17,9 @@ import static java.util.concurrent.TimeUnit.MILLISECONDS;
 
 /**
  * 网络爬虫
- * @author osys
+ *
+ *
+ * Created by osys on 2022/08/28 21:48.
  */
 public abstract class WebCrawler {
     /** 线程池：关闭该线程池，能获得正在执行的线程任务 */

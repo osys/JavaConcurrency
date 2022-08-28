@@ -4,6 +4,9 @@ import java.util.concurrent.locks.ReentrantLock;
 
 import static java.util.concurrent.TimeUnit.NANOSECONDS;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class TimedLocking {
     private Lock lock = new ReentrantLock();
 

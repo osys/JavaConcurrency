@@ -7,7 +7,7 @@ import java.util.concurrent.FutureTask;
 
 /**
  * 用 FutureTask 记录包装器来初始化缓存
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class Memoizer3<A, V> implements Computable<A, V> {
     private final Map<A, Future<V>> cache = new ConcurrentHashMap<>();

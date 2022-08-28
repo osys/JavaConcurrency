@@ -12,6 +12,12 @@ import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ *
+ *
+ * @param <T>
+ */
 public abstract class SocketUsingTask <T> implements CancellableTask<T> {
     @GuardedBy("this")
     private Socket socket;

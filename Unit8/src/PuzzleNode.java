@@ -3,6 +3,9 @@ import net.jcip.annotations.Immutable;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 @Immutable
 public class PuzzleNode <P, M> {
     /** 位置 */

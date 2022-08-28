@@ -1,5 +1,8 @@
 import java.util.concurrent.CyclicBarrier;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class TimedPutTakeTest extends PutTakeTest {
     private BarrierTimer timer = new BarrierTimer();
 

@@ -5,7 +5,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * 文件搜索应用程序中的生产者和消费者
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class ProducerConsumer {
 

@@ -4,7 +4,7 @@ import java.util.concurrent.FutureTask;
 
 /**
  * 使用 FutureTask 顶载稍后需要的數据
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class Preloader {
     /** 加载产品信息 */

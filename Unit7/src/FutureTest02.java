@@ -6,7 +6,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 /**
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class FutureTest02 {
     public static void main(String[] args) {

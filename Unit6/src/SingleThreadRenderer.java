@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public abstract class SingleThreadRenderer {
     void renderPage(CharSequence source) {

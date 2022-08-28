@@ -5,6 +5,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class PutTakeTest extends TestCase {
     protected static final ExecutorService pool = Executors.newCachedThreadPool();
     protected CyclicBarrier barrier;

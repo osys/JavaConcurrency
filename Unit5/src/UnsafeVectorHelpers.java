@@ -1,7 +1,7 @@
 import java.util.Vector;
 
 /**
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class UnsafeVectorHelpers {
     public static Object getLast(Vector list) {

@@ -5,7 +5,7 @@ import java.util.concurrent.Semaphore;
 
 /**
  * 使用信号量来约束容器
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class BoundedHashSet <T> {
     private final Set<T> set;

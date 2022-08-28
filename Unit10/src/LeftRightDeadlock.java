@@ -1,3 +1,6 @@
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class LeftRightDeadlock {
     private final Object left = new Object();
     private final Object right = new Object();

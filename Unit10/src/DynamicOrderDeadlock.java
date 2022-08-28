@@ -1,5 +1,8 @@
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class DynamicOrderDeadlock {
     // Warning: 容易产生死锁
     public static void transferMoney(Account fromAccount,

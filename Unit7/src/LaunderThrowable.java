@@ -1,4 +1,9 @@
-/** Throwable 强制转换为 RuntimeException */
+/**
+ * Throwable 强制转换为 RuntimeException。
+ *
+ *
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class LaunderThrowable {
 
     /**

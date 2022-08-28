@@ -2,6 +2,9 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class SequentialPuzzleSolver <P, M> {
     private final Puzzle<P, M> puzzle;
     private final Set<P> seen = new HashSet<P>();

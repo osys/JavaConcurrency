@@ -6,6 +6,9 @@ import java.util.concurrent.FutureTask;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public abstract class BackgroundTask <V> implements Runnable, Future<V> {
     private final FutureTask<V> computation = new Computation();
 

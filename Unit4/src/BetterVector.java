@@ -3,7 +3,7 @@ import net.jcip.annotations.ThreadSafe;
 import java.util.Vector;
 
 /**
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 @ThreadSafe
 public class BetterVector <E> extends Vector<E> {

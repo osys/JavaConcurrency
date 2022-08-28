@@ -5,6 +5,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Pattern;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 @ThreadSafe
 public class BetterAttributeStore {
     @GuardedBy("this")

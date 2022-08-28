@@ -1,5 +1,5 @@
 /**
- * @author admin
+ * Created by osys on 2022/08/28 21:48.
  */
 public class ThisEscape {
     public ThisEscape(EventSource source) {

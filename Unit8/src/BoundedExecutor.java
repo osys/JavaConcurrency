@@ -4,6 +4,9 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.RejectedExecutionException;
 import java.util.concurrent.Semaphore;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 @ThreadSafe
 public class BoundedExecutor {
     private final Executor exec;

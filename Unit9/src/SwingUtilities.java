@@ -5,6 +5,9 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.ThreadFactory;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class SwingUtilities {
     private static final ExecutorService exec = Executors.newSingleThreadExecutor(new SwingThreadFactory());
     private static volatile Thread swingThread;

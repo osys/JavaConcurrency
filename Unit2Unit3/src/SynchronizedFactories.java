@@ -12,7 +12,7 @@ import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 @ThreadSafe
 public class SynchronizedFactories implements Servlet {

@@ -7,6 +7,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public abstract class TransformingSequential {
 
     /** 顺序执行 */

@@ -1,7 +1,7 @@
 import net.jcip.annotations.NotThreadSafe;
 
 /**
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class LazyInitRaceDemo {
     private static final LazyInitRace lazyInitRace = new LazyInitRace();

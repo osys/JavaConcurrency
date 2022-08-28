@@ -2,7 +2,7 @@ import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * NumberRange2 类完整地保护它的不变约束
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class NumberRange2 {
     /** 不变约束: lower <= upper */

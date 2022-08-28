@@ -5,6 +5,8 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * ReentrantLock 模拟生成随机数
+ *
+ * Created by osys on 2022/08/28 21:48.
  */
 @ThreadSafe
 public class ReentrantLockPseudoRandom extends PseudoRandom {

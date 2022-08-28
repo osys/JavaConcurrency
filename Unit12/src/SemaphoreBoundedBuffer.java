@@ -3,6 +3,9 @@ import net.jcip.annotations.ThreadSafe;
 
 import java.util.concurrent.Semaphore;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 @ThreadSafe
 public class SemaphoreBoundedBuffer<E> {
 

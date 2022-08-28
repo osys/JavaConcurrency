@@ -1,5 +1,8 @@
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class NumberRange {
     /** 不变约束: lower <= upper */
     private final AtomicInteger lower = new AtomicInteger(0);

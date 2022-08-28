@@ -3,6 +3,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class MyThreadFactory implements ThreadFactory {
     private final String poolName;
 

@@ -8,7 +8,7 @@ import java.util.concurrent.FutureTask;
 
 /**
  * ConcurrentHashMap + FutureTask + Map原子操作 来初始化缓存
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class Memoizer<A, V> implements Computable<A, V> {
     private final ConcurrentMap<A, Future<V>> cache = new ConcurrentHashMap<>();

@@ -2,6 +2,9 @@ import java.util.Set;
 
 /**
  * “搬箱子” 谜题的抽象
+ *
+ *
+ * Created by osys on 2022/08/28 21:48.
  * @param <P> 位置
  * @param <M> 移动
  */

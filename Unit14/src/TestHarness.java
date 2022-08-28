@@ -4,7 +4,7 @@ import java.util.concurrent.CountDownLatch;
  * 在时序测试中，使用 CountDownLatch 来启动和停止线程
  *
  * CountDownLatch.class ---- 利用它可以实现类似计数器的功能。比如有一个任务A，它要等待其他4个任务执行完毕之后才能执行，此时就可以利用CountDownLatch来实现这种功能了。
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class TestHarness {
     /**

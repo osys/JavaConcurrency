@@ -1,5 +1,8 @@
 import java.util.Random;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class DemonstrateDeadlock {
 
     private static final int NUM_THREADS = 20;

@@ -9,6 +9,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class ConcurrentPuzzleSolver <P, M> {
 
     /** 搬箱子谜题 */

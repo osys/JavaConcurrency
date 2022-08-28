@@ -1,5 +1,8 @@
 import java.util.concurrent.BlockingQueue;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class WorkerThread extends Thread {
     private final BlockingQueue<Runnable> queue;
 

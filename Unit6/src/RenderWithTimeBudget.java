@@ -8,7 +8,7 @@ import java.util.concurrent.TimeoutException;
 import static java.util.concurrent.TimeUnit.NANOSECONDS;
 
 /**
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class RenderWithTimeBudget {
     private static final Ad DEFAULT_AD = new Ad();

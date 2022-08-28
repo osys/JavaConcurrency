@@ -2,7 +2,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * NumberRange 类没有完整地保护它的不变约束
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class NumberRange {
     /** 不变约束: lower <= upper */

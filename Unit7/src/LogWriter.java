@@ -4,7 +4,7 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 /**
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class LogWriter {
     private final BlockingQueue<String> queue;

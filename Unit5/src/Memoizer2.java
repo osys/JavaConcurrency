@@ -3,7 +3,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * 用 ConcurrentHashMap 来初始化缓存
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class Memoizer2<A, V> implements Computable<A, V> {
     private final Map<A, V> cache = new ConcurrentHashMap<>();

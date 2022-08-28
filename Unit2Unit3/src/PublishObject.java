@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class PublishObject {
 

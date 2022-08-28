@@ -2,6 +2,9 @@ import net.jcip.annotations.ThreadSafe;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 @ThreadSafe
 public class AtomicPseudoRandom extends PseudoRandom {
     private AtomicInteger seed;

@@ -1,7 +1,7 @@
 import java.util.concurrent.BlockingQueue;
 
 /**
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class TaskRunnable implements Runnable {
     BlockingQueue<Task> queue;

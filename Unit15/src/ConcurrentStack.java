@@ -2,7 +2,11 @@ import net.jcip.annotations.ThreadSafe;
 
 import java.util.concurrent.atomic.AtomicReference;
 
-/** 使用链表实现栈 */
+/**
+ * 使用链表实现栈
+ *
+ * Created by osys on 2022/08/28 21:48.
+ */
 @ThreadSafe
 public class ConcurrentStack<E> {
     AtomicReference<Node<E>> top = new AtomicReference<Node<E>>();

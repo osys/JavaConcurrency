@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class CheckForMail {
     public boolean checkMail(Set<String> hosts, long timeout, TimeUnit unit) throws InterruptedException {

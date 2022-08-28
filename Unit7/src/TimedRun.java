@@ -10,7 +10,9 @@ import java.util.concurrent.TimeoutException;
 
 /**
  * 外部线程中，安排中断
- * @author osys
+ *
+ *
+ * Created by osys on 2022/08/28 21:48.
  */
 public class TimedRun {
     private static final Integer CORE_POOL_SIZE = 100;

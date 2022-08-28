@@ -8,7 +8,7 @@ import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author osys
+ * Created by osys on 2022/08/28 21:48.
  */
 public class TimedRun0 {
     public static void main(String[] args) throws InterruptedException {

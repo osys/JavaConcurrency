@@ -2,6 +2,9 @@ import java.util.List;
 import java.util.concurrent.AbstractExecutorService;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class GuiExecutor extends AbstractExecutorService {
     // Singleton 包含一个私有的构造函數和一个公共的工厂
     private static final GuiExecutor instance = new GuiExecutor();

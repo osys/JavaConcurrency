@@ -1,3 +1,6 @@
+/**
+ * Created by osys on 2022/08/28 21:48.
+ */
 public class BarrierTimer implements Runnable {
     private boolean started;
     private long startTime, endTime;
